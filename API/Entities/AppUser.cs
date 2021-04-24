@@ -6,5 +6,9 @@ namespace API.Entities
 
         public string UserName { get; set; }
 
-    }
+        public byte[] PasswordHas { get; set; }
+
+        public byte[] Passwordsalt { get; set; }
+
+    } 
 }
